@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/59/trunk/Docs
+END
+random_routing_for_random_churn.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/58/trunk/Docs/random_routing_for_random_churn.png
+END
+techniques_for_handling_adversarial_churn.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/58/trunk/Docs/techniques_for_handling_adversarial_churn.png
+END
+Churn_Handling.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/trunk/Docs/Churn_Handling.txt
+END
+random_replication_for_random_churn.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/58/trunk/Docs/random_replication_for_random_churn.png
+END
+techniques_for_handling_random_churn.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/58/trunk/Docs/techniques_for_handling_random_churn.png
+END
+Chord_Churn_Main.ppt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/trunk/Docs/Chord_Churn_Main.ppt
+END
+Chord_Churn_Interim.odp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/14/trunk/Docs/Chord_Churn_Interim.odp
+END
+delta_replication_for_adversarial_churn.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/58/trunk/Docs/delta_replication_for_adversarial_churn.png
+END
+Chord_Churn_Interim.ppt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/14/trunk/Docs/Chord_Churn_Interim.ppt
+END
+lookup_failure_for_random_churn.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/58/trunk/Docs/lookup_failure_for_random_churn.png
+END
+pyChord-DevNotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/trunk/Docs/pyChord-DevNotes.txt
+END

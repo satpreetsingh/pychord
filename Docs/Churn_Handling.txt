@@ -1,0 +1,32 @@
+Replication Strategies:
+
+1. Replicate around nearest neighbors: 
+Assuming you've stored your node IDs in a list: 
+- sort the list, now comparing indices of IDs gives the distance between them on the ring (also, take care of ring crossovers) 
+- for a given msg. being routed, if the destination ID is +/- DELTA away from current (where the msg. is currently) node's ID then stop routing AND establish object-found procedures. 
+
+
+2. Randomized replication:
+- At each node, maintian a fixed-length array (eqv. to the node's storage capacity) REPLICA ARRAY of "replicas-being-maintained" at that node 
+- for a given msg. being routed, if the destination ID is found within REPLICA ARRAY of current node, then stop routing AND establish object-found procedures. 
+- How do we distribute replicas? 
+    - This does not have to be a distrib. protocol that runs on a node: if that's ok, 
+    a. Let the network-model fill a node's REPLICA ARRAY randomly from alive-nodes
+    b. ---> I had something in mind, I've forgotten! <---
+    - Distributed version:
+    a. Send msgs. (from a destination node whenever a msg. reaches -- indicates it is popular -- which in turn we are not simulating!) to a set of random messages (MSG_TYPE = REPLICATE_ME!). This adds the node to the receiver's REPLICA ARRAY. The node itself sends out a fixed no. of msgs, doubles each time a msg. reaches (responds to popularity increase)
+    
+Randomization Strategies:
+
+1. Reactive randomized routing:
+- When the next hop / receiving node has failed, current node routes to a randomly chosen finger (maybe with a bias towards later fingers?)
+- 
+
+2. Randomized fingers:
+- Maintian some randomized fingers?
+
+
+
+----> Holy cow! Lots of documentation left!
+Yoda sez: Very little sleep in your future, I see!
+
